@@ -2,25 +2,170 @@
 
 /**
  * 
- * @authors Your Name (you@example.org)
- * @date    2017-03-02 13:42:11
- * @version $Id$
+ * @authors umbrellaman (you@example.org)
+ * @date    2017-03-31 13:42:11
+ * @version $1.0$
  */
 #box{
-	width: 1100px;
-	height: 1000px;
-	background-color: lightgray;
-}
-
-#box1{
-	width: 200px;
-	height: 200px;
-	background-color: gray;
-	float: left;
+	width: 300px;
+	height: 500px;
 	margin: 10px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
 }
 
-#box2{
-	width: 600px;
-	height: 600px;
+#title{
+	width: 300px;
+	height: 40px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+#fenlei{
+	margin : 0px;
+	width: 45px;
+	height: 34px;
+	padding-top: 6px;
+	padding-left: 13px;
+	float: left;
+	background-color: lightgray;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+/*#fenlei:focus{
+	background-color: white;
+}*/
+
+#news{
+	width: 300px;
+	height: 85px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+#searchtext{
+	width: 250px;
+	height: 35px;
+	margin: 4px;
+	position: relative;
+  	left: 20px;
+  	/*border-radius:5px;
+ 	 -moz-border-radius:25px; /* Old Firefox */
+}
+
+#login{
+	width: 300px;
+	height: 125px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+#img1{
+	width: 75px;
+	height: 75px;
+	margin: 10px 10px 0px 10px;
+	float: left;
+}
+
+#logintext{
+	width: 180px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 4px;
+	float: left;
+}
+
+#img2{
+	width: 73px;
+	height: 22px;
+	margin:  11px 11px 0px 11px;
+	float: left;
+}
+
+#search{
+	width: 300px;
+	height: 50px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+#function{
+	width: 300px;
+	height: 190px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+#largebutton{
+	width: 118px;
+	height: 126px;
+	float: left;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+#largepic{
+	width: 118px;
+	height: 90px;
+	position:relative;
+}
+
+#img3{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+}
+
+#largeword{
+	width: 58px;
+	height: 20px;
+	padding-left: 40px;
+}
+
+#button{
+	width: 58px;
+	height: 62px;
+	float: left;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+#pic{
+	width: 58px;
+	height: 42px;
+	position:relative;
+}
+
+#word{
+	width: 58px;
+	height: 20px;
+	padding-left: 12px;
+}
+
+#word3{
+	width: 58px;
+	height: 20px;
+	padding-left: 5px;
+}
+
+#img4{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
 }
