@@ -1,0 +1,99 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="world.css"> 
+    <script>
+        window.onload = function(){
+            var divs = document.getElementById("title").getElementsByTagName("div");
+            var len = divs.length;
+            for(var i=0;i<len;i++){
+                divs[i].onclick = function(){
+                    for(var j=0;j<len;j++){
+                        divs[j].style.backgroundColor = "lightgray";
+                        divs[j].style.borderColor='gray';
+                    }
+                    this.style.backgroundColor = "white";
+                    this.style.borderColor='white';
+                };
+            }
+        };
+    </script>
+    </head>
+    
+    <body>
+        <div id='box'>
+            <div id='title'>
+                <div id='fenlei'>公告</div>
+                <div id='fenlei'>规则</div>
+                <div id='fenlei'>论坛</div>
+                <div id='fenlei'>安全</div>
+                <div id='fenlei'>公益</div>
+            </div>
+            <div id='news'>
+                <input type="text" id='searchtext'>
+                <input type="text" id='searchtext'>
+            </div>
+            <div id='login'>
+                <img src="1.png" id='img1'>
+                <input type="text" id='logintext'>
+                <input type="text" id='logintext'>
+                <img src="login.png" id='img2'>
+                <img src="register.png" id='img2'>
+                <img src="kaidian.png" id='img2'>
+            </div>
+            <div id='search'>
+                <input type="text" id='searchtext'>
+            </div>
+            <div id='function'>
+                <div id='largebutton'>
+                    <div id='largepic'><img src="1.png" id='img3'></div>
+                    <div id='largeword'>游戏</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word'>游戏</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word'>旅行</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word'>保险</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word'>彩票</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word'>电影</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word3'>点外卖</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word'>理财</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word3'>找服务</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word'>音乐</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word3'>水电煤</div>
+                </div>
+                <div id='button'>
+                    <div id='pic'><img src="1.png" id='img4'></div>
+                    <div id='word3'>火车票</div>
+                </div>
+            </div>
+        </div>
+         
+    </body>
+</html>
