@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors umbrellamans (you@example.org)
+ * @date    2017-04-07 08:19:49
+ * @version $1.0$
+ */
+#box{
+	height: 600px;
+	width: 800px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.top-box{
+	height: 118px;
+	width: 758px;
+	margin-left: 19px;
+	margin-top: 19px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-left-box{
+	width: 600px;
+	height: 118px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-right-box{
+	width: 158px;
+	height: 118px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.top-in-box{
+	width: 80px;
+	height: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.low-box{
+	height: 418px;
+	width: 758px;
+	margin-left: 19px;
+	margin-top: 19px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.low-left-box{
+	width: 240px;
+	height: 420px;	
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.low-left-large-box{
+	width: 200px;
+	height: 298px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.low-left-tiny-box{
+	width: 48px;
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.low-right-box{
+	width: 520px;
+	height: 420px;
+	display: flex;
+    flex-direction: column;
+}
+
+.low-right-in-box{
+	width: 480px;
+	height: 39px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: -5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.box2{
+	width: 390px;
+	height: 370px;
+	margin-top: 20px;
+	margin-left: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.top-box2{
+	height: 259px;
+	width: 390px;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 1px 0px;
+}
+.img{
+	height: 259px;
+	width: 390px;
+}
+
+.low-box2{
+	height: 110px;
+	width: 390px;
+	/*background-color: lightpink;*/
+	display: flex;
+	flex-direction: column;
+}
+
+.low-title-in-box2{
+	height: 16px;
+	width: 358px;
+	/*background-color: white;*/
+	font-size: 12px;
+	font-family: "黑体";
+	padding-top: 2px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+
+}
+
+.low-information-in-box2{
+	height: 18px;
+	width: 368px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	display: flex;
+    flex-direction: row;
+}
+
+.low-information-left-in-box2{
+	height: 14px;
+	width: 160px;
+	font-size: 12px;
+	color: red;
+	font-family: "黑体";
+	padding-top: 2px;
+	padding-left: 10px;
+}
+
+.low-information-right-in-box2{
+	height: 14px;
+	width: 198px;
+	font-size: 12px;
+	color: gray;
+	font-family: "黑体";
+	padding-top: 2px;
+}
+
+.low-price-in-box2{
+	height: 28px;
+	width: 368px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	display: flex;
+    flex-direction: row;
+}
+
+.low-price-symbol-in-box2{
+	height: 22px;
+	width: 10px;
+	font-size: 14px;
+	color: red;
+	font-family: "黑体";
+	padding-top: 6px;
+	padding-left: 10px;
+}
+
+.low-price-real-in-box2{
+	height: 28px;
+	width: 100px;
+	font-size: 24px;
+	color: red;
+	font-family: "黑体";
+}
+
+.low-price-original-in-box2{
+	height: 28px;
+	width: 160px;
+	font-size: 12px;
+	color: gray;
+	font-family: "黑体";
+	text-decoration: line-through;
+	display: flex;
+    flex-direction: column-reverse;
+}
+
+.low-price-num-in-box2{
+	height: 28px;
+	width: 40px;
+	font-size: 12px;
+	color: red;
+	font-family: "黑体";
+	display: flex;
+    flex-direction: column-reverse;
+}
+
+.low-price-sold-in-box2{
+	height: 28px;
+	width: 48px;
+	font-size: 12px;
+	color: gray;
+	font-family: "黑体";
+	display: flex;
+    flex-direction: column-reverse;
+}
+
+.box3{
+	height: 798px;
+	width: 1220px;
+	margin-top: 50px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	display: flex;
+    flex-wrap: wrap;
+}

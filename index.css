@@ -5,11 +5,19 @@
  * @date    2017-03-31 20:15:27
  * @version $1.0$
  */
-#blank{
+/*#blank{
 	height: 200px;
 	padding-left: 888px;
 }
 #box{
 	height: 100px;
 	padding-left: 900px;
+}*/
+.box {
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+  	display: flex;
+  justify-content: center;
+  align-items: center;
 }
