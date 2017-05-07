@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-04 14:23:32
+ * @version $Id$
+ */
+
+#myMap{
+	height: 890px;
+	width: 60%;
+}
+
+
+.img1{
+	height: 120px;
+	width: 300px;
+}
+
+.out-left{
+	height: 60px;
+	width: 230px;
+	float: left;
+}
+
+.out-left-top{
+	height: 20px;
+	width: 230px;
+	float: left;
+}
+
+.out-left-middle{
+	height: 25px;
+	width: 230px;
+	color: #ff5d5d;
+	font-size: 75%;
+	float: left;
+	display: flex;
+    align-items: center;
+}
+
+.out-left-down{
+	height: 15px;
+	width: 230px;
+	color: lightgray;
+	font-size: 75%;
+	float: left;
+}
+
+.out-right{
+	height: 60px;
+	width: 70px;
+	float: left;
+}
+
+.out-right-top{
+	height: 40px;
+	width: 70px;
+	float: left;
+	font-size: 125%;
+	color: #2897c5;
+	display: flex;
+    justify-content: flex-end;
+}
+
+.out-right-down{
+	height: 20px;
+	width: 70px;
+	float: left;
+}
+
+.out-right-down-in{
+	color: white;
+	background-color: #ff8000;
+	border-radius: 3px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
